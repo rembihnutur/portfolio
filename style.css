@@ -53,6 +53,7 @@ body {
 
 #avatar {
 	width:40%;
+	height: auto;
 	border-radius: 100px;
 }
 
