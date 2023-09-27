@@ -38,6 +38,11 @@ body {
 	padding: 10px;
 }
 
+#center a{
+	font-weight: bold;
+	font-color: #FCC87D;
+}
+
 #menu {
 	text-align: right !important;
 }
