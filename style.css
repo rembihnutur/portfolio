@@ -15,7 +15,7 @@ body {
 	height: 700px;
 	border-radius: 25px;
 	border: 10px solid rgba(29, 64, 60, 0.1);
-	padding: 10px;
+	padding: 10px 20px 10px 20px;
 	text-align: center;
 }
 
@@ -23,6 +23,9 @@ body {
 	color: #FCC87D;
 	font-size: 15pt;
 	font-family: helvetica, sans-serif;
+}
+#side li{
+	text-align: left;
 }
 
 #center {
@@ -38,13 +41,19 @@ body {
 	padding: 10px;
 }
 
-#center a{
+#center a:link, #center a:visited, #center a:active{
 	font-weight: bold;
-	font-color: #FCC87D;
+	color: #FCC87D;
+	text-decoration: none;
+}
+
+#center a:hover {
+	color: #FBA335;
 }
 
 #menu {
 	text-align: right !important;
+	margin-bottom: 50px;
 }
 .menu {
 	padding: 10px 15px 10px 15px;
@@ -63,6 +72,5 @@ body {
 }
 
 p{
-	margin-bottom: 50px;
 	text-align:justify;
 }
